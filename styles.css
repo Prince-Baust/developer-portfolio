@@ -7,35 +7,22 @@ div img {
     width: 80%;
 }
 
-section {
-    margin-bottom: 150px;
+footer p {
+    color: gray;
+    text-align: center;
 }
 
 h1 {
     font-size: 50px;
 }
 
-.half-width {
-    width: 50%;
-    padding-left: 5%;
+p {
+    color: dimgray;
+    text-align: justify;
 }
 
-.link-btn{
-    color: white;
-    font-weight: 700;
-    text-decoration: none;
-    background-image: linear-gradient(tomato, salmon);
-    padding: 10px 40px;
-    border-radius: 5px;
-
-}
-.orange-highlight {
-    color: orange;
-}
-
-.top-section{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
+section {
+    margin-bottom: 150px;
 }
 
 .dream-area {
@@ -52,13 +39,40 @@ h1 {
 
 .exp-item {
     box-shadow: 10px 10px 40px gray;
-    width: 40%;
     margin: 0 5%;
     padding: 20px 40px;
+    width: 40%;
 }
 
 .flexible-container{
     display: flex;
+}
+
+.half-width {
+    padding-left: 5%;
+    width: 50%;
+}
+
+.link-btn{
+    background-image: linear-gradient(tomato, salmon);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.orange-highlight {
+    color: orange;
+}
+
+.padding-r {
+    padding-right: 5%;
+}
+
+.top-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 
 #baby-dev {
@@ -71,8 +85,4 @@ h1 {
     border-left: 5px solid;
     border-image: linear-gradient(tomato, salmon);
     border-image-slice: 1;
-}
-
-footer p {
-    text-align: center;
 }
